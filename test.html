@@ -8,70 +8,37 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div style="height: 2000px"></div>
-    <div
-      class="c-btn-group sim-card-sticky sim-card-sticky__column"
-      style="bottom: env(safe-area-inset-bottom)"
-    >
-      <button
-        type="button"
-        class="sim-card-sticky__button sim-card-sticky__button--primary"
-        onClick="alert('123')"
-      >
-        다음
-      </button>
-    </div>
-    <div
-      id="__BVID__387___BV_modal_outer_"
-      style="display: none; position: absolute; z-index: 1040"
-    >
-      <div
-        id="__BVID__387"
-        role="dialog"
-        aria-describedby="__BVID__387___BV_modal_body_"
-        class="modal fade show"
-        aria-modal="true"
-        style="display: block"
-      >
+    <div style="position: absolute; z-index: 1040">
+      <div class="modal fade show" style="display: block">
         <div
-          class="modal-dialog modal-md modal-dialog-centered modal-dialog fullpopup-layer round-type p-signup-gift close-btn-bar bottom-sheet"
+          class="modal-dialog modal-md modal-dialog-centered modal-dialog m-bv-modal fullpopup-layer"
         >
-          <span tabindex="0"></span>
-          <div
-            id="__BVID__387___BV_modal_content_"
-            tabindex="-1"
-            class="modal-content"
-          >
-            <!---->
-            <div id="__BVID__387___BV_modal_body_" class="modal-body">
+          <div class="modal-content">
+            <div class="modal-header"></div>
+            <div
+              class="modal-body"
+              style="overflow-y: hidden !important; max-height: none"
+            >
               <div class="c-body-content">
-                <button type="button" class="btn-close-bar">닫기</button>
-                <div class="simcard-sheet">
-                  <div class="title-wrap">
-                    <div class="title">
-                      <span class="txt">U+ 모바일 고객이세요?</span>
-                    </div>
-                    <p class="title__desc">
-                      U+ 모바일 휴대폰 결합으로 <br /><em class="color-def"
-                        >9,900원 요금 할인</em
-                      >을 받을 수 있습니다.
-                    </p>
-                  </div>
-                  <div class="c-btn-group column-btns">
-                    <button id="_uid_94" class="primary">
-                      예, U+ 휴대폰 결합 할인 받기
+                <div style="overflow-y: auto; max-height: calc(100vh - 48px)">
+                  <div style="height: 2200px; background: red"></div>
+                  <div
+                    class="c-btn-group sim-card-sticky sim-card-sticky__column"
+                  >
+                    <button
+                      type="button"
+                      class="sim-card-sticky__button sim-card-sticky__button--primary"
+                      onClick="alert('123')"
+                    >
+                      다음
                     </button>
-                    <button id="_uid_95">아니요</button>
                   </div>
                 </div>
               </div>
             </div>
-            <!---->
           </div>
-          <span tabindex="0"></span>
         </div>
       </div>
-      <div id="__BVID__387___BV_modal_backdrop_" class="modal-backdrop"></div>
     </div>
   </body>
 </html>
