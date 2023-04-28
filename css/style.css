@@ -75636,3 +75636,22 @@ body[style="overflow: hidden;"] .header-layout-wrap.header-hago {
     font-weight: 700;
     border-radius: 12px;
 }
+
+
+.p-signup-gift .column-btns {
+    flex-direction: column
+}
+
+.p-signup-gift .column-btns>button {
+    height: 52px;
+    border-radius: 12px;
+    color: #6d7582;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -.05em
+}
+
+.p-signup-gift .column-btns>button.primary {
+    color: #fff;
+    background: #e6007e
+}
